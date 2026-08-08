@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">StudyPulse</string>
+    <string name="channel_name">Study Tracking</string>
+    <string name="channel_description">Shows active study session progress</string>
+    <string name="notif_title">StudyPulse — Active</string>
+    <string name="action_stop">Stop</string>
+    <string name="tab_dashboard">Dashboard</string>
+    <string name="tab_scanner">Scanner</string>
+    <string name="tab_history">History</string>
+    <string name="studying_at">Studying at %1$s</string>
+    <string name="not_studying">Not Studying</string>
+    <string name="weekly_goal_hrs">/ 10 hrs</string>
+    <string name="start_manual">Start Manually</string>
+    <string name="stop_session">Stop Session</string>
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="nfc_not_available">NFC not available on this device</string>
+    <string name="camera_permission_required">Camera permission is required to scan QR codes</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="delete_session">Delete session</string>
+    <string name="no_sessions">No study sessions yet</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="daily_breakdown">Daily Breakdown</string>
+</resources>
