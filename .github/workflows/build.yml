@@ -22,14 +22,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: gradle
-          
-      - name: Download gradle-wrapper.jar                      
-        run: |                                                 
-                mkdir -p gradle/wrapper                              
-                curl -fsSL \                                         
-                  "https://raw.githubusercontent.com/gradle/gradle/v8.6.0/gradle/wrapper/gradle-wrapper.jar" \                      
-                  -o gradle/wrapper/gradle-wrapper.jar    
 
+      - name: Generate Gradle Wrapper
+        run: gradle wrapper --gradle-version 8.7
+     
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
